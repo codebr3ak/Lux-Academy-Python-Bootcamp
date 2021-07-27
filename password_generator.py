@@ -12,3 +12,6 @@ lower = string.ascii_lowercase
 upper = string.ascii_uppercase
 num = string.digits
 symbols = string.punctuation
+
+#Combine all the data
+all = lower + upper + num + symbols
