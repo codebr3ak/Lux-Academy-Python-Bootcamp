@@ -5,7 +5,7 @@ import string
 print('Hello, Welcome to the Password Generator')
 
 #Input the length of the password
-length = int(input('\nEnter the length of password: '))    
+length = 8    
 
 #Define data
 lower = string.ascii_lowercase
