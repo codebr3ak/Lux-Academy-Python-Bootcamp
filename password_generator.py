@@ -15,3 +15,7 @@ symbols = string.punctuation
 
 #Combine all the data
 all = lower + upper + num + symbols
+
+#Use random 
+temp = random.sample(all,length)
+
