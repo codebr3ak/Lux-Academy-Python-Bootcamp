@@ -19,3 +19,8 @@ all = lower + upper + num + symbols
 #Use random 
 temp = random.sample(all,length)
 
+#Create the password
+password = "".join(temp)
+
+#Print the password
+print(password)
